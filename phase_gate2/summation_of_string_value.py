@@ -4,6 +4,4 @@ def summation_of_string_value(number1, number2)-> str:
    summation = number1 + number2
    return str(summation)
 
-print(summation_of_string_value("4", "8"))
-print(summation_of_string_value("90", "12"))
-print(summation_of_string_value("2", "-60"))
+print(summation_of_string_value("4", "8"), summation_of_string_value("90", "12"), summation_of_string_value("2", "-60"))
