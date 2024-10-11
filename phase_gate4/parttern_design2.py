@@ -1,18 +1,18 @@
-number = int(input("Enter parttern range: "))
-for parttern in range (number):
-  for number in range(parttern + 1):
-    if number % 2 == 0:
-      print(number + 1, end = " ")
-    else:
-      print ("*", end = " ")
-  print()
+#number = int(input("Enter parttern range: "))
+
+for parttern in range (5):
+    print(" ")
+    for number1 in range(1, parttern + 2):
+        if number1 % 2 == 0:
+            print("*", end = " ")
+        else:
+            print (number1, end = " ")
 
 
-
-for parttern in range (number+1):
-  for number in range(number - parttern + 1):
-    if number % 2 == 0:
-      print(number + 1, end = " ")
-    else:
-      print ("*", end = " ")
-  print()
+for parttern2 in range (5, 0, -1):
+    print(" ")
+    for number2 in range(1, parttern2 + 1):
+        if number2 % 2 == 0:
+            print("*", end = " ")
+        else:
+            print (number2, end = " ")
